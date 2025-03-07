@@ -7,7 +7,7 @@ func main() {
 		nama = "Musliadi"
 		usia = 30
 		hobi = "Ngoding"
-	)
+	) 
 
 	fmt.Println(nama, usia, hobi)
 
