@@ -2,13 +2,17 @@ package main
 
 import "fmt"
 
+// Deklarasi variable global (diluar fungsi) tanpa inisialisasi
+var nama string
+var usia int
+
 func main() {
 
-	var nama string
-	var usia int
-
+	// Inisialisasi variable global
 	nama = "Musliadi"
 	usia = 30
+	//deklarasi dan inialisasi variable local (didalam fungsi)
+	status := "Menikah"
 
 	fmt.Println("Nama = ", nama)
 	fmt.Println("Usia = ", usia)
@@ -26,6 +30,7 @@ func main() {
 	jumlah_anak := 1
 	fmt.Println("Hobi = ", hobi)
 	fmt.Println("Jumlah anak = ", jumlah_anak)
+	fmt.Println("Status = ", status)
 
 	// deklarasi variable dengan := tidak berlaku jika variable lebih awal ditentukan tipe datanya seperti contoh dibawah ini
 	// alamat := string

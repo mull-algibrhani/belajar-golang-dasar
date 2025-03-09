@@ -45,4 +45,18 @@ func main() {
 		10, 20, 30, 40, 50,
 	}
 	fmt.Println(values2)
+
+	// OERASI																								KETERANGAN
+	// len(array)																				Untuk mendapatkan panjang array
+	// array(index)																		Untuk mendapatkan data di posisi array
+	// array[index] = value										Untuk mengubah data di posisi index
+	var values3 = [...]int{
+		10, 20, 30, 40, 50,
+	}
+
+	fmt.Println(values3)
+
+	values3[1] = 8 // mengubah data pada array
+	fmt.Println(values3)
+	fmt.Println(len(values3))
 }
